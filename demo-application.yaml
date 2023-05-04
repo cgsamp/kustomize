@@ -1,6 +1,6 @@
 apiVersion: apps/v1
 kind: Deployment
-metadata:
+metadata: 
   labels:
     app.kubernetes.io/name: marco-polo-demo
   name: marco-polo-demo
