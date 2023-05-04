@@ -43,7 +43,7 @@ spec:
             fieldRef:
               fieldPath: spec.serviceAccountName
       imagePullSecrets:
-      - name: gcp-artifact-sampsoftware
+      - name: gcp-artifact-repository
 
 
 ---
