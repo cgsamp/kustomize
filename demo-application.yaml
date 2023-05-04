@@ -15,7 +15,7 @@ spec:
         app.kubernetes.io/name: marco-polo-demo
     spec:
       containers:
-      - image: us-central1-docker.pkg.dev/sampsoftware/demo-apps/marcopolodemo
+      - image: us-central1-docker.pkg.dev/sampsoftware/demo-apps/marco-polo
         name: marco-polo-demo
         ports:
         - containerPort: 8080
